@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Nisha 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stars" id="stars"></div>
+  <div class="hearts" id="hearts"></div>
+  <div id="confetti"></div>
+
+  <main class="card">
+
+    <div class="top-label">✦ MADE WITH LOVE ✦</div>
+
+    <!-- Welcome Screen -->
+    <section id="welcome" class="screen active">
+      <div class="gift">🎁</div>
+
+      <p class="subtitle">A little surprise for someone special</p>
+
+      <h1>Hey, <span>Nisha</span> 💗</h1>
+
+      <p class="description">
+        I made something small for you.<br>
+        It's not expensive, but it's filled with care. 🌸
+      </p>
+
+      <button class="main-btn" onclick="openSurprise()">
+        Open Your Surprise 💌
+      </button>
+    </section>
+
+    <!-- Birthday Screen -->
+    <section id="birthday" class="screen">
+      <div class="birthday-icon">✨ 🎀 ✨</div>
+
+      <p class="subtitle">Your special day is here!</p>
+
+      <h1>Happy Birthday<br><span>Nisha!</span></h1>
+
+      <div class="cake-scene">
+        <div class="candle">🕯️</div>
+        <div class="cake-emoji">🎂</div>
+        <div class="cake-caption">A little cake for a lovely person 💗</div>
+      </div>
+
+      <p class="description">
+        May your dreams come true,<br>
+        and may your smile never fade. 🌷
+      </p>
+
+      <button class="main-btn" onclick="openMessage()">
+        Read Your Letter 💌
+      </button>
+    </section>
+
+    <!-- Letter Screen -->
+    <section id="letter" class="screen">
+      <div class="letter-icon">💌</div>
+
+      <p class="subtitle">A little note from my heart</p>
+
+      <h2>Dear Nisha, 🌸</h2>
+
+      <div class="letter-box">
+        Happy Birthday to you! 💗
+
+        <br><br>
+
+        Some people make an ordinary day feel special just by being
+        themselves. I think you are one of those people.
+
+        <br><br>
+
+        I hope this year brings you happiness, success, beautiful
+        memories, and many reasons to smile.
+
+        <br><br>
+
+        Never stop believing in yourself. Keep chasing your dreams,
+        stay kind, and always remember how special you are.
+
+        <br><br>
+
+        <strong>
+          You deserve all the beautiful things life has to offer. 💖
+        </strong>
+      </div>
+
+      <button class="main-btn" id="revealButton" onclick="revealSecret()">
+        One Last Surprise ✨
+      </button>
+
+      <div id="secret" class="secret hidden">
+        <div class="secret-heart">💗</div>
+
+        <h2>One Little Confession...</h2>
+
+        <p class="description">
+          Honestly, creating this surprise made me smile too. 😊
+
+          <br><br>
+
+          I think you're a lovely person, and I'd like to get to know
+          you better, if you're comfortable with that.
+
+          <br><br>
+
+          No pressure and no expectations. I just wanted to make
+          your birthday a little more special.
+
+          <br><br>
+
+          <strong>Happy Birthday once again, Nisha! 🌷</strong>
+        </p>
+
+        <p class="signature">— I hope everything in your life gets better from now on. May all your worries slowly fade away and your life be filled with happiness. May you achieve everything you wish for. No matter how difficult life gets, never lose your beautiful smile. 🥹💗
+
+I always want you to be happy. May every day ahead of you be filled with beautiful memories and wonderful moments. I sincerely pray from the bottom of my heart that your life will be filled with happiness, peace, and success, Nisha. ❤️🫶
+
+**Happy Birthday, Nisha! 🎂💖** I hope everything goes well for you from now on. May you always stay happy and keep smiling. That's my heartfelt wish for you. 🌸✨ ♡</p>
+      </div>
+
+      <button class="secondary-btn" onclick="restart()">
+        ↻ Start Again
+      </button>
+    </section>
+
+    <footer>Created with ♡ just for Nisha</footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
